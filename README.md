@@ -24,9 +24,9 @@ GET `/api/timestamp` | Return a date object with unix timestamp and UTC timestam
 GET `/api/timestamp/{dateParam}` | Return a date object of the informed timestamp (unix or UTC ISO-8601)
 
 #### Example usage:
-* https://timestamp-microservice.sudirao21.repl.co/api/timestamp
-* https://timestamp-microservice.sudirao21.repl.co/api/timestamp/2015-12-25
-* https://timestamp-microservice.sudirao21.repl.co/api/timestamp/1451001600000
+* [base url]/api/timestamp
+* [base url]/api/timestamp/2015-12-25
+* [base url]/api/timestamp/1451001600000
 
 #### Example response:
 ```json
