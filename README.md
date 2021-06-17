@@ -5,13 +5,6 @@ This is my project of the [Timestamp Microservice challenge](https://www.freecod
 
 [Live Demo](https://timestamp-microsevice.sudirao21.repl.co/)
 
-## Endpoints:
-
-Endpoints | Description
-----------|-------------
-GET `/api/timestamp` | Return a date object with unix timestamp and UTC timestamp of the current timestamp
-GET `/api/timestamp/{dateParam}` | Return a date object of the informed timestamp (unix or UTC ISO-8601)
-
 # Installation
 
 ```bash
@@ -22,6 +15,13 @@ $ npm install
 $ npm start
 ```
 Access it at localhost:3000
+
+## Endpoints:
+
+Endpoints | Description
+----------|-------------
+GET `/api/timestamp` | Return a date object with unix timestamp and UTC timestamp of the current timestamp
+GET `/api/timestamp/{dateParam}` | Return a date object of the informed timestamp (unix or UTC ISO-8601)
 
 #### Example usage:
 * https://timestamp-microservice.sudirao21.repl.co/api/timestamp
